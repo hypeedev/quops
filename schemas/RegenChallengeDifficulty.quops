@@ -1,0 +1,9 @@
+{
+  "name": "RegenChallengeDifficulty",
+  "type": "enum",
+  "variants": [
+    "Easy",
+    "Medium",
+    "Hard"
+  ]
+}

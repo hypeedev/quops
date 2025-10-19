@@ -1,0 +1,9 @@
+{
+  "name": "LastRoundWinner",
+  "type": "record",
+  "fields": {
+    "id": "int",
+    "role": "Role"
+  },
+  "dependencies": ["Role"]
+}

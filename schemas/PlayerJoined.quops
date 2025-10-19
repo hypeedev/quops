@@ -1,0 +1,13 @@
+{
+  "name": "PlayerJoined",
+  "type": "record",
+  "fields": {
+    "event": {
+      "type": "int",
+      "min": 0,
+      "max": 250
+    },
+    "player": "Player"
+  },
+  "dependencies": ["Player"]
+}

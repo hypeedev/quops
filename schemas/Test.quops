@@ -1,0 +1,22 @@
+{
+  "name": "Test",
+  "type": "record",
+  "fields": {
+    "foo": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "int"
+          },
+          "maxLength": 3
+        },
+        "maxLength": 3
+      },
+      "maxLength": 3
+    }
+  },
+  "dependencies": ["Foo"]
+}

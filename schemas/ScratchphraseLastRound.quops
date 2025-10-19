@@ -1,0 +1,12 @@
+{
+  "name": "ScratchphraseLastRound",
+  "type": "record",
+  "fields": {
+    "winner": {
+      "type": "LastRoundWinner",
+      "nullable": true
+    },
+    "gameStats": "ScratchphraseGameStats"
+  },
+  "dependencies": ["LastRoundWinner", "ScratchphraseGameStats"]
+}

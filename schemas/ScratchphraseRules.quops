@@ -1,0 +1,41 @@
+{
+  "name": "ScratchphraseRules",
+  "type": "record",
+  "fields": {
+    "language": "Language",
+    "gameMode": "GameMode",
+    "regenChallengeDifficulty": "RegenChallengeDifficulty",
+    "regenChallenges": {
+      "type": "int",
+      "min": 1,
+      "max": 3
+    },
+    "solvesPerSyllable": {
+      "type": "int",
+      "min": -5000,
+      "max": 5000
+    },
+    "turnDuration": {
+      "type": "int",
+      "min": 1,
+      "max": 3600
+    },
+    "startingLives": {
+      "type": "int",
+      "min": 1,
+      "max": 5
+    },
+    "maxLives": {
+      "type": "int",
+      "min": 1,
+      "max": 5
+    },
+    "syllableDuration": {
+      "type": "int",
+      "min": 1,
+      "max": 50
+    },
+    "allowHyphensAndApostrophesInSyllables": "bool"
+  },
+  "dependencies": ["Language", "GameMode", "RegenChallengeDifficulty"]
+}

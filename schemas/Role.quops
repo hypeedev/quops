@@ -1,0 +1,11 @@
+{
+  "name": "Role",
+  "type": "enum",
+  "variants": [
+    "Player",
+    "Leader",
+    "DictionaryEditor",
+    "Moderator",
+    "Developer"
+  ]
+}

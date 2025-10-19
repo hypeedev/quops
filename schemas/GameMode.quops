@@ -1,0 +1,8 @@
+{
+  "name": "GameMode",
+  "type": "enum",
+  "variants": [
+    "Normal"
+  ]
+}
+

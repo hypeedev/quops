@@ -1,0 +1,18 @@
+[package]
+name = "quops_derive"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+quote = "1.0.40"
+syn = { version = "2.0.104", features = ["full"] }
+proc-macro2 = "1.0.95"
+darling = "0.21.0"
+serde_json = "1.0.140"
+
+[lib]
+proc-macro = true
+
+[profile.release]
+codegen-units = 1
+debug = true

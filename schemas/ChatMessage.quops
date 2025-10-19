@@ -1,0 +1,20 @@
+{
+  "name": "ChatMessage",
+  "type": "record",
+  "fields": {
+    "playerId": {
+      "type": "int",
+      "min": 0,
+      "max": 1000
+    },
+    "message": {
+      "type": "bytes",
+      "maxLength": 500
+    },
+    "asd": {
+      "type": "array",
+      "items": "int",
+      "maxLength": 20
+    }
+  }
+}

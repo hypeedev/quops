@@ -1,0 +1,37 @@
+{
+  "name": "Player",
+  "type": "record",
+  "fields": {
+    "id": "int",
+    "nickname": {
+      "type": "bytes",
+      "maxLength": 20,
+      "nullable": true
+    },
+    "avatar": {
+      "type": "bytes",
+      "maxLength": 20000,
+      "nullable": true
+    },
+    "status": {
+      "type": "bytes",
+      "maxLength": 20,
+      "nullable": true
+    },
+    "role": {
+      "type": "Role",
+      "nullable": true
+    },
+    "players": {
+      "type": "array",
+      "items": {
+        "type": "Role",
+        "min": 0,
+        "max": 100
+      },
+      "maxLength": 100,
+      "nullable": true
+    }
+  },
+  "dependencies": ["Role"]
+}

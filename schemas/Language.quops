@@ -1,0 +1,8 @@
+{
+  "name": "Language",
+  "type": "enum",
+  "variants": [
+    "English",
+    "French"
+  ]
+}

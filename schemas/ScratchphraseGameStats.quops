@@ -1,0 +1,8 @@
+{
+  "name": "ScratchphraseGameStats",
+  "type": "record",
+  "fields": {
+    "totalTime": "int",
+    "totalWordsUsed": "int"
+  }
+}
